@@ -1,6 +1,7 @@
 {
-  "name": "ams-react-2",
+  "name": "ams-react",
   "version": "1.0.0",
+  "description": "AMS-REACT",
   "main": "index.js",
   "scripts": {
     "academy": "cross-env APP=academy webpack serve",
@@ -11,15 +12,13 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "@mantine/core": "^7.15.3",
-    "@mantine/hooks": "^7.15.3",
+    "@mantine/core": "7.15.3",
+    "@mantine/hooks": "7.15.3",
     "@tabler/icons": "^3.27.1",
     "react": "19.0.0",
     "react-dom": "19.0.0",
-    "react-router": "7.0.2",
-    "react-router-dom": "^7.1.1"
+    "react-router": "7.0.2"
   },
   "devDependencies": {
     "@types/react": "19.0.1",
@@ -31,10 +30,10 @@
     "eslint": "8.57.1",
     "eslint-plugin-react": "^7.37.2",
     "html-webpack-plugin": "5.6.3",
-    "postcss": "^8.4.49",
+    "postcss": "8.4.49",
     "postcss-loader": "8.1.1",
-    "postcss-preset-mantine": "^1.17.0",
-    "postcss-simple-vars": "^7.0.1",
+    "postcss-preset-mantine": "1.17.0",
+    "postcss-simple-vars": "7.0.1",
     "prettier": "3.4.2",
     "style-loader": "4.0.0",
     "ts-loader": "9.5.1",
